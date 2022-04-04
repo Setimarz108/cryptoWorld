@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:ital,wght@0,400;0,900;1,100&family=Noto+Sans:ital@1&family=Oswald&family=Playfair+Display:wght@700;900&family=Poppins:wght@200;300&family=Roboto:wght@500&family=Rowdies:wght@700&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(111,66,160);
+background: linear-gradient(90deg, rgb(84, 49, 122) 0%, rgb(90, 49, 138) 8%, rgb(166, 36, 180) 48%, rgb(87, 44, 139) 99%);
+/* background: linear-gradient(90deg, rgb(54, 11, 153) 0%, #A628BE 48%, rgba(83, 0, 166, 0.94) 99%); */
+/* background: linear-gradient(90deg, rgba(45, 12, 137, 0.95) 0%, rgb(23, 111, 154) 48%, rgba(5, 7, 88, 0.85) 99%); */
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

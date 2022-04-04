@@ -1,0 +1,41 @@
+.carouselCard{
+
+    max-width: 120px;
+    height: 100px;
+    display: flex;
+        
+}
+
+.carouselMain{
+
+    background-color:blue;
+}
+
+.carouselImg{
+
+    width: 30px;
+        
+   }
+
+   .item{
+    width:270px;
+    background-color: #06143160;
+    border: 1px solid #1728bea1;
+    border-radius: 10px;
+    padding: 20px;
+   }
+
+   ::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #edf2f7;
+  }
+
+  .{
+
+    border: 1px solid #1e449260;
+    border-radius: 30px;
+    background-color: #1a0f793d;
+    padding: 15px;
+  }
+
+ 
