@@ -39,7 +39,7 @@ function News({ simplified }) {
          
         </div>
       </div>
-    {!simplified && (
+    {/* {!simplified && (
          
       <Row gutter={[24, 24]} >
          <Col span={24}>
@@ -61,7 +61,7 @@ function News({ simplified }) {
       </Row>
 
 
-   )}
+   )} */}
 
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 auto-cols-fr p-4">
 
