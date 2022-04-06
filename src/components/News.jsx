@@ -104,10 +104,10 @@ function News({ simplified }) {
               />
               
               <div className="flex flex-col">
-               <span><p class="text-gray-900 leading-none ">{news.category}</p></span>
-                <span><p class="text-green-600">
+               <span><p class="text-gray-200 leading-none ">{news.category}</p></span>
+                <span><h6 class="text-blue-600">
                   {moment(news.datePublished).startOf("ss").fromNow()}
-                </p></span>
+                </h6></span>
             </div>
 
             </div> 

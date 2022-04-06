@@ -70,24 +70,18 @@ if(isFetching) return 'Loading...'
          
          <Col className="stats-container">
 
-           <Col className="coin-value-statistics">
-             <Col className="coin-value-statistics-heading">
-               <h2 className="coin-details-heading">
-                 {cryptoDetails?.name} Value Statistics
-               </h2>
-               <p>{cryptoDetails?.name} stats</p>
-             </Col>
-             {stats.map(({ icon, title, value}) => (
-               <Col className="coin-stats">
-                 <Col className="coin-stats-name">
-                   <h3>{icon}</h3>
+           <Col className=" flex coin-value-statistics">
+                          {stats.map(({ icon, title, value}) => (
+               <Col className="coin-stats flex flex-col">
+                 <Col className="coin-stats-name flex flex-col">
+                   <h3 className='mx-auto'>{icon}</h3>
                    <h3>{title}</h3>
                  </Col>
-                   <h3 className="stats">{value}</h3>
+                   <h3 className="stats mx-auto">{value}</h3>
                </Col>
              ))}
            </Col>
-           <Col className="other-stats-info">
+           {/* <Col className="other-stats-info">
              <Col className="coin-value-statistics-heading">
                <h2 className="coin-details-heading">
                   Other Statistics
@@ -103,7 +97,7 @@ if(isFetching) return 'Loading...'
                    <h3 className="stats">{value}</h3>
                </Col>
              ))}
-           </Col>
+           </Col> */}
          </Col>
              
              <Col className="coin-desc-link">
@@ -117,7 +111,7 @@ if(isFetching) return 'Loading...'
 
                   <Col className="coin-links">
                      <h1 className="coin-details-heading">
-                       {cryptoDetails?.name} Links
+                       {cryptoDetails?.name} 
                      </h1>
 
                      {cryptoDetails?.links.map((link) => (

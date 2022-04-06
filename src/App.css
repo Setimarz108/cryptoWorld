@@ -409,7 +409,7 @@ border-radius: 22px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 0.5px solid #b6c5cf70;
+ 
   padding: 20px;
 }
 
@@ -642,9 +642,11 @@ border-radius: 22px;
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .select-timeperiod {
-  width: 200px !important;
-  margin-top: 20px !important;
-  color: black;
+  width: 200px;
+  background-color: #1F2155C2;
+  margin: auto;
+  text-align: center;
+  border-radius: 22px;
 }
 
 .select-timeperiod > placeholder {
