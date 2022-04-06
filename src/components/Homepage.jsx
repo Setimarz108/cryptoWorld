@@ -25,7 +25,7 @@ const Homepage = () => {
       src="https://s.yimg.com/it/api/res/1.2/Ijw0PMUxffbZZx9o6YTX2g--~A/YXBwaWQ9eW5ld3M7Zmk9ZmlsbDtoPTQwMDtxPTgwO3c9NDAw/https://media.zenfs.com/creatr-images/GLB/2018-07-09/e9fb6ff0-8397-11e8-aa71-2bf9b45b3c91_crypto_sq.jpg.cf.webp" alt="" />
     </div>
     <div className="flex flex-col">
-      <h1 className="mb-5 sm:text-sm" style={{fontSize:"2.5rem", color:"", lineHeight:"0.8"}}> Top 10 Cryptos & Global Stats </h1>
+      <h1 className="mb-5 sm:text-sm" style={{fontSize:"2.5rem", color:"", lineHeight:"0.8"}}> Top 10 Cryptos & Stats </h1>
       <div > <p className="text-ellipsis overflow-hidden">Find the latest cryptocurrency news, updates, values, prices, and more related to Bitcoin, Ethereum, Dogecoin, DeFi and NFTs with Crypto World topic page.</p></div>
      
     </div>
